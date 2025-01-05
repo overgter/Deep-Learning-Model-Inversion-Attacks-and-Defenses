@@ -6,7 +6,7 @@ This is a comprehensive resource repository for deep learning model inversion at
 
 |         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
 |:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
-|   DLG  | Deep Leakage from Gradients | NeurIPS'2019 |    [Paper](https://proceedings.neurips.cc/paper/2019/hash/60a6c4002cc7b29142def8871531281a-Abstract.html), [Code](https://github.com/mit-han-lab/dlg)    |
+|   DLG  | Deep Leakage from Gradients | NeurIPS'2019 |    [[Paper]](https://proceedings.neurips.cc/paper/2019/hash/60a6c4002cc7b29142def8871531281a-Abstract.html), [[Code]](https://github.com/mit-han-lab/dlg)    |
 |      iDLG    |                              iDLG: Improved Deep Leakage from Gradients                           |                                              [arXiv](https://arxiv.org/abs/2001.02610)                                                   |     [Github](https://github.com/PatrickZH/Improved-Deep-Leakage-from-Gradients/blob/master/iDLG.py)     |
 |  AGIC  |  AGIC: Approximate Gradient Inversion Attack on Federated Learning  |  [SRDS'2022](https://ieeexplore.ieee.org/abstract/document/9996844?casa_token=HW2g88ZKvyYAAAAA:ynaPpf6qzZY8ptc31j9lSHEIkP8B2skFskNLT3-xUjbdIK1mqtRGAT_ErtT1_beOGl0upNGNCSD1)  |  -  |
 |  RGCIR  |  An effective and practical gradient inversion attack  |  [IJIS'2022](https://onlinelibrary.wiley.com/doi/10.1002/int.22997)  |  -  |
