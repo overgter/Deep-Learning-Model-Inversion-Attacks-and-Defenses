@@ -14,7 +14,7 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  EGIA  |  Egia: An external gradient inversion attack in federated learning  |  [TIFS'2023](https://ieeexplore.ieee.org/abstract/document/10209197?casa_token=8Z3tPnQDgvsAAAAA:sla4sO1caXCPVZrPFa62KkpjqDYcpuUAS2Y8UloY8lj0gJn3dZAqFbwcQwFdJICLoKvnCmmHdbOc)  |  [https://github.com/RuslandGadget/FCN-Inv](https://github.com/RuslandGadget/FCN-Inv)  |
 |  SGI  |  High-Fidelity Gradient Inversion in Distributed Learning  |  [AAAI'20224](https://ojs.aaai.org/index.php/AAAI/article/view/29975)  |  [https://github.com/MiLab-HITSZ/2023YeHFGradInv](https://github.com/MiLab-HITSZ/2023YeHFGradInv)  |
 |  GGI  |  GGI: Generative Gradient Inversion Attack in Federated Learning  |  [DOCS'2024](https://ieeexplore.ieee.org/document/10704504)  |  -  |
-｜  GI-NAS  |  GI-NAS: Boosting Gradient Inversion Attacks through Adaptive Neural Architecture Search  |  [arXiv](https://arxiv.org/abs/2405.20725)  |  -  |
+|  GI-NAS  |  GI-NAS: Boosting Gradient Inversion Attacks through Adaptive Neural Architecture Search  |  [arXiv](https://arxiv.org/abs/2405.20725)  |  -  |
 
 
 
