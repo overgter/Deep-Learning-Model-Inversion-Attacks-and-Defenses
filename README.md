@@ -29,11 +29,15 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  SecretGen  |  SecretGen: Privacy Recovery on Pre-trained Models via Distribution Discrimination  |  ECCV'2022  |  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_9), [[Code]](https://github.com/AI-secure/SecretGen)  |
 |  GIFD  |  GIFD: A Generative Gradient Inversion Method with Feature Domain Optimization  |  ICCV'2023  |  [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Fang_GIFD_A_Generative_Gradient_Inversion_Method_with_Feature_Domain_Optimization_ICCV_2023_paper.html), [[Code]](https://github.com/ffhibnese/GIFD_Gradient_Inversion_Attack)  |
 |  DMMIA  |   Model Inversion Attack via Dynamic Memory Learning  |  MM'23  |  [[Paper]](https://dl.acm.org/doi/abs/10.1145/3581783.3612072)  |
-|  Patch-MI  |  Patch-MI: Enhancing Model Inversion Attacks via Patch-Based Reconstruction  |  arXiv  |  [arXiv](https://arxiv.org/abs/2312.07040)  |
+|  Patch-MI  |  Patch-MI: Enhancing Model Inversion Attacks via Patch-Based Reconstruction  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2312.07040)  |
 |  SIA-GAN  |  SIA-GAN: Scrambling Inversion Attack Using Generative Adversarial Network  |  Access  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9537763), [[Code]](https://github.com/MADONOKOUKI/SIA-GAN)  |
 |  FedInverse  |  FedInverse: Evaluating Privacy Leakage in Federated Learning  |  ICLR'2024  |  [[Paper]](https://openreview.net/forum?id=nTNgkEIfeb), [[Code]](https://github.com/Jun-B0518/FedInverse)  |
-
-
+|  DeepInversion  |  Dreaming to Distill: Data-Free Knowledge Transfer via DeepInversion  |  CVPR'2020  |  [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Yin_Dreaming_to_Distill_Data-Free_Knowledge_Transfer_via_DeepInversion_CVPR_2020_paper.html), [[Code]](https://github.com/NVlabs/DeepInversion)  |
+|  RL-GraphMI  |  Model Inversion Attacks Against Graph Neural Networks  |  TKDE'2023  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9895303?casa_token=N1MQRPXQiQYAAAAA:7h3eUPfA1X6f4bR_oHDACnVNxq0KQaP8t3Leiyhhk9btTIC-DQcDRsrp1a60nU-dMU2EhCsG2g)  |
+|  XAI  |  Exploiting Explanations for Model Inversion Attacks  |  ICCV'2021  |  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_Exploiting_Explanations_for_Model_Inversion_Attacks_ICCV_2021_paper.html)  |
+|  SMI  |  The Role of Class Information in Model Inversion Attacks against Image Deep Learning Classifiers  |  TDSC'2023  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/10225397?casa_token=7otFd3hFaF4AAAAA:6jpMBYenbS4j4G9MvMAbuLFPrmM8qBA1Wotkxrf-vp81rpvXK688OiHObOeujKDDD6ET5Cf9z2RD)  |
+|  LSMI  |  Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2310.06549) |
+|  EMI  |  Reconstructing Training Data From Diverse ML Models by Ensemble Inversion  |  WACV'2022  |  [[Paper]](ontent/WACV2022/html/Wang_Reconstructing_Training_Data_From_Diverse_ML_Models_by_Ensemble_Inversion_WACV_2022_paper.html)  |
 
 
 
@@ -44,10 +48,7 @@ This is a comprehensive resource repository for deep learning model inversion at
 
 ## Defenses Against Model Inversion Attacks
 
-| Method | Paper  | Source | Code | 
-|---|---|---|---|
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |---|
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |---|
+
 
 ## Evaluation Metrics in MI Attacks and Defenses
 
