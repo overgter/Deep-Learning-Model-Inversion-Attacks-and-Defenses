@@ -41,12 +41,40 @@ This is a comprehensive resource repository for deep learning model inversion at
 
 
 
-
-
-
-
-
 ## Defenses Against Model Inversion Attacks
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  VRM  |  Gradient Inversion Attacks: Impact Factors Analyses and Privacy Enhancement  |  PAMI'2024  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/10604429)  |
+|  DCS2  |  Concealing Sensitive Samples against Gradient Leakage in Federated Learning  |  AAAI'2024  |  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/30171), [[Code]](https://github.com/JingWu321/DCS-2)  |
+|  ATS  |  Privacy-Preserving Collaborative Learning With Automatic Transformation Search  |  CVPR'2021  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Privacy-Preserving_Collaborative_Learning_With_Automatic_Transformation_Search_CVPR_2021_paper.html), [[Code]](https://github.com/gaow0007/ATSPrivacy)  |
+|  Soteria  |  Soteria: Provable Defense Against Privacy Leakage in Federated Learning From Representation Perspective  |  CVPR'2021  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_Soteria_Provable_Defense_Against_Privacy_Leakage_in_Federated_Learning_From_CVPR_2021_paper.html), [[Code]](https://github.com/jeremy313/Soteria)  |
+|  Crafter  |  Crafter: Facial Feature Crafting against Inversion-based Identity Theft on Deep Models  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2401.07205)  |
+|  Quantization Enabled FL  |  Mixed quantization enabled federated learning to tackle gradient inversion attacks  |  CVPR'2023  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Ovi_Mixed_Quantization_Enabled_Federated_Learning_To_Tackle_Gradient_Inversion_Attacks_CVPRW_2023_paper.html), [[Code]](https://github.com/PretomRoy/Defense-against-grad-inversion-attacks)  |
+|  Sparse-coding Architecture  |  Improving Robustness to Model Inversion Attacks via Sparse Coding Architectures  |  arXive  |  [[Paper]](https://arxiv.org/abs/2403.14772)  |
+|  Synthetic Data Generation with Privacy-preserving Techniques  |  Exploring Privacy-Preserving Techniques on Synthetic Data as a Defense Against Model Inversion Attacks  |  ISC'2023  |  [[Paper]](https://repository.ubn.ru.nl/bitstream/handle/2066/301262/301262.pdf?sequence=1)  |
+|  Image Augmentation  |   An empirical analysis of image augmentation against model inversion attack in federated learning  |  Cluster Computering  |  [[Paper]](https://link.springer.com/article/10.1007/s10586-022-03596-1)  |
+|  Additive Noise  |  Practical Defences Against Model Inversion Attacks for Split Neural Networks  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2104.05743)  |
+|  Privacy-guided Training  |  Reducing Risk of Model Inversion Using Privacy-Guided Training  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2006.15877)  |
+|  Statistical Features via Knowledge Distillation  |  Defending against gradient inversion attacks in federated learning via statistical machine unlearning  |  KBS'2024  |  [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124006178)  |
+|  PATROL  |  PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks  |  WACV'2024  |  [[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Ding_PATROL_Privacy-Oriented_Pruning_for_Collaborative_Inference_Against_Model_Inversion_Attacks_WACV_2024_paper.html)  |
+|  DGP  |  Revisiting Gradient Pruning: A Dual Realization for Defending against Gradient Attacks  |  AAAI'2024  |  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28460)  |
+|  Guardian  |  Guardian: Guarding against Gradient Leakage with Provable Defense for Federated Learning  |  WSDM'2024  |  [[Paper]](https://dl.acm.org/doi/10.1145/3616855.3635758)  |
+|  pFGD  |  Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation  |  ESORICS'2023  |  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-54129-2_44)  |
+|  DGC  |  Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training  |  ICLR'2018  |  [[Paper]](https://openreview.net/forum?id=SkhQHMW0W),[[Code]](https://github.com/synxlin/deep-gradient-compression)  |  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
