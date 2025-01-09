@@ -52,7 +52,7 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  Quantization Enabled FL  |  Mixed quantization enabled federated learning to tackle gradient inversion attacks  |  CVPR'2023  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2023W/FedVision/html/Ovi_Mixed_Quantization_Enabled_Federated_Learning_To_Tackle_Gradient_Inversion_Attacks_CVPRW_2023_paper.html), [[Code]](https://github.com/PretomRoy/Defense-against-grad-inversion-attacks)  |
 |  Sparse-coding Architecture  |  Improving Robustness to Model Inversion Attacks via Sparse Coding Architectures  |  arXive  |  [[Paper]](https://arxiv.org/abs/2403.14772)  |
 |  Synthetic Data Generation with Privacy-preserving Techniques  |  Exploring Privacy-Preserving Techniques on Synthetic Data as a Defense Against Model Inversion Attacks  |  ISC'2023  |  [[Paper]](https://repository.ubn.ru.nl/bitstream/handle/2066/301262/301262.pdf?sequence=1)  |
-|  Image Augmentation  |   An empirical analysis of image augmentation against model inversion attack in federated learning  |  Cluster Computering  |  [[Paper]](https://link.springer.com/article/10.1007/s10586-022-03596-1)  |
+|  Image Augmentation  |   An empirical analysis of image augmentation against model inversion attack in federated learning  |  Cluster Computering‘2022  |  [[Paper]](https://link.springer.com/article/10.1007/s10586-022-03596-1)  |
 |  Additive Noise  |  Practical Defences Against Model Inversion Attacks for Split Neural Networks  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2104.05743)  |
 |  Privacy-guided Training  |  Reducing Risk of Model Inversion Using Privacy-Guided Training  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2006.15877)  |
 |  Statistical Features via Knowledge Distillation  |  Defending against gradient inversion attacks in federated learning via statistical machine unlearning  |  KBS'2024  |  [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124006178)  |
@@ -61,7 +61,7 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  Guardian  |  Guardian: Guarding against Gradient Leakage with Provable Defense for Federated Learning  |  WSDM'2024  |  [[Paper]](https://dl.acm.org/doi/10.1145/3616855.3635758)  |
 |  pFGD  |  Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation  |  ESORICS'2023  |  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-54129-2_44)  |
 |  DGC  |  Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training  |  ICLR'2018  |  [[Paper]](https://openreview.net/forum?id=SkhQHMW0W),[[Code]](https://github.com/synxlin/deep-gradient-compression)  |  
-
+|  Model Fragmentation, Shuffle and Aggregation  |  Model Fragmentation, Shuffle and Aggregation to Mitigate Model Inversion in Federated Learning  |  LANMAN'2021  |  [[Paper]](https://ieeexplore.ieee.org/document/9478813)  |
 
 
 
