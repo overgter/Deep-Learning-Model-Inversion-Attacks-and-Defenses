@@ -1,9 +1,8 @@
 # Resource Repository for Deep Learning Model Inversion Attacks and Defenses
 This is a comprehensive resource repository for deep learning model inversion attacks and defenses research.
 
-
 ## Taxonomy of Model Inversion Attacks
-
+### Gradient Inversion Attacks
 |         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
 |:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |   DLG  | Deep Leakage from Gradients | NeurIPS'2019 |    [[Paper]](https://proceedings.neurips.cc/paper/2019/hash/60a6c4002cc7b29142def8871531281a-Abstract.html), [[Code]](https://github.com/mit-han-lab/dlg)    |
@@ -15,6 +14,9 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  SGI  |  High-Fidelity Gradient Inversion in Distributed Learning  |  AAAI'2024  |  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29975), [[Code]](https://github.com/MiLab-HITSZ/2023YeHFGradInv)  |
 |  GGI  |  GGI: Generative Gradient Inversion Attack in Federated Learning  |  DOCS'2024  |  [[Paper]](https://ieeexplore.ieee.org/document/10704504)  |
 |  GI-NAS  |  GI-NAS: Boosting Gradient Inversion Attacks through Adaptive Neural Architecture Search  |  arXiv  |  [[Code】](https://arxiv.org/abs/2405.20725)  |
+### Generative Model-based Attacks
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |  GMI  |  The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks  |  CVPR'2020  |  [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_The_Secret_Revealer_Generative_Model-Inversion_Attacks_Against_Deep_Neural_Networks_CVPR_2020_paper.html), [[Code]](https://github.com/AI-secure/GMI-Attack) |
 |  VMI  |  Variational model inversion attacks  |  NeurIPS'2021  |  [[Paper]](https://proceedings.neurips.cc/paper/2021/hash/50a074e6a8da4662ae0a29edde722179-Abstract.html), [[Code]](https://github.com/wangkua1/vmi)|
 |  KEDMI  |  Knowledge-Enriched Distributional Model Inversion Attacks  |  ICCV'2021  |  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Knowledge-Enriched_Distributional_Model_Inversion_Attacks_ICCV_2021_paper.html), [[Code]](https://github.com/SCccc21/Knowledge-Enriched-DMI)  |
@@ -32,6 +34,10 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  Patch-MI  |  Patch-MI: Enhancing Model Inversion Attacks via Patch-Based Reconstruction  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2312.07040)  |
 |  SIA-GAN  |  SIA-GAN: Scrambling Inversion Attack Using Generative Adversarial Network  |  Access  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9537763), [[Code]](https://github.com/MADONOKOUKI/SIA-GAN)  |
 |  FedInverse  |  FedInverse: Evaluating Privacy Leakage in Federated Learning  |  ICLR'2024  |  [[Paper]](https://openreview.net/forum?id=nTNgkEIfeb), [[Code]](https://github.com/Jun-B0518/FedInverse)  |
+
+### Miscellaneous MI Attacks
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |  DeepInversion  |  Dreaming to Distill: Data-Free Knowledge Transfer via DeepInversion  |  CVPR'2020  |  [[Paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Yin_Dreaming_to_Distill_Data-Free_Knowledge_Transfer_via_DeepInversion_CVPR_2020_paper.html), [[Code]](https://github.com/NVlabs/DeepInversion)  |
 |  RL-GraphMI  |  Model Inversion Attacks Against Graph Neural Networks  |  TKDE'2023  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/9895303?casa_token=N1MQRPXQiQYAAAAA:7h3eUPfA1X6f4bR_oHDACnVNxq0KQaP8t3Leiyhhk9btTIC-DQcDRsrp1a60nU-dMU2EhCsG2g)  |
 |  XAI  |  Exploiting Explanations for Model Inversion Attacks  |  ICCV'2021  |  [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_Exploiting_Explanations_for_Model_Inversion_Attacks_ICCV_2021_paper.html)  |
@@ -39,9 +45,8 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  LSMI  |  Be Careful What You Smooth For: Label Smoothing Can Be a Privacy Shield but Also a Catalyst for Model Inversion Attacks  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2310.06549) |
 |  EMI  |  Reconstructing Training Data From Diverse ML Models by Ensemble Inversion  |  WACV'2022  |  [[Paper]](ontent/WACV2022/html/Wang_Reconstructing_Training_Data_From_Diverse_ML_Models_by_Ensemble_Inversion_WACV_2022_paper.html)  |
 
-
-
 ## Defenses Against Model Inversion Attacks
+### Feature Perturbation/obfuscation
 |         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
 |:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |  VRM  |  Gradient Inversion Attacks: Impact Factors Analyses and Privacy Enhancement  |  PAMI'2024  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/10604429)  |
@@ -56,29 +61,56 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  Additive Noise  |  Practical Defences Against Model Inversion Attacks for Split Neural Networks  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2104.05743)  |
 |  Privacy-guided Training  |  Reducing Risk of Model Inversion Using Privacy-Guided Training  |  arXiv  |  [[Paper]](https://arxiv.org/abs/2006.15877)  |
 |  Statistical Features via Knowledge Distillation  |  Defending against gradient inversion attacks in federated learning via statistical machine unlearning  |  KBS'2024  |  [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124006178)  |
+### Gradient Pruning
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |  PATROL  |  PATROL: Privacy-Oriented Pruning for Collaborative Inference Against Model Inversion Attacks  |  WACV'2024  |  [[Paper]](https://openaccess.thecvf.com/content/WACV2024/html/Ding_PATROL_Privacy-Oriented_Pruning_for_Collaborative_Inference_Against_Model_Inversion_Attacks_WACV_2024_paper.html)  |
 |  DGP  |  Revisiting Gradient Pruning: A Dual Realization for Defending against Gradient Attacks  |  AAAI'2024  |  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28460)  |
 |  Guardian  |  Guardian: Guarding against Gradient Leakage with Provable Defense for Federated Learning  |  WSDM'2024  |  [[Paper]](https://dl.acm.org/doi/10.1145/3616855.3635758)  |
 |  pFGD  |  Mitigating Gradient Inversion Attacks in Federated Learning with Frequency Transformation  |  ESORICS'2023  |  [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-54129-2_44)  |
 |  DGC  |  Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training  |  ICLR'2018  |  [[Paper]](https://openreview.net/forum?id=SkhQHMW0W),[[Code]](https://github.com/synxlin/deep-gradient-compression)  |  
+### Gradient Perturbation/Obfuscation
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
 |  Model Fragmentation, Shuffle and Aggregation  |  Model Fragmentation, Shuffle and Aggregation to Mitigate Model Inversion in Federated Learning  |  LANMAN'2021  |  [[Paper]](https://ieeexplore.ieee.org/document/9478813)  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|  Autoencoder-based Compression  |  Learned Model Compression for Efficient and Privacy-Preserving Federated Learning  |  OJ-COMS'2024  |  [[Paper]](https://d197for5662m48.cloudfront.net/documents/publicationstatus/200432/preprint_pdf/f26b764e017f327d30ea2de7147300c6.pdf)  |
+|  GradPrivacy  |  Preserving Privacy of Input Features Across All Stages of Collaborative Learning  |  BdCloud'2024  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10491741)  |
+|  Quantization Enabled FL  |  Mixed Quantization Enabled Federated Learning to Tackle Gradient Inversion Attacks  |  CVPRW'2023  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10208585)  |
+### Differential Privacy
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  Augmented DP  |  Robust transparency against model inversion attacks  |  TDSC'2020  |  [[Paper]](https://ieeexplore.ieee.org/document/9178452)  |
+|  Class-level and Subclass-level DP  |  Broadening Differential Privacy for Deep Learning Against Model Inversion Attacks  |  Big Data'2020  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9378274)  |
+|  DP in Healthcare Models  |  Gradient Mechanism to Preserve Differential Privacy and Deter Against Model Inversion Attacks in Healthcare Analytics  |  EMBC'2020  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9176834)  |
+|  Local DP  |  Efficient and Privacy-Enhanced Federated Learning Based on Parameter Degradation  |  TSC'2024  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10528912)  |
+###  Cryptographic Encryption
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  Secure Aggregation  |  AAIA: an efficient aggregation scheme against inverting attack for federated learning  |  IJIS'2023  |  [[Paper]](https://link.springer.com/content/pdf/10.1007/s10207-023-00670-6.pdf)  |
+|  Perceptual Hashing  |   Privacy preserving facial recognition against model inversion attacks  |  GLOBECOM'2020  |  [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9322508)  |
+|  CAHE  |  Privacy-preserving distributed deep learning via LWE-based Certificateless Additively Homomorphic Encryption (CAHE) |  JISA'2023  |  [[Paper]](https://pdf.sciencedirectassets.com/287016/1-s2.0-S2214212623X00039/1-s2.0-S2214212623000467/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDEFIelhjwcaBWyyQ5EVQwZ2%2BjhDpmDhM%2BP806kstr34QIgIGvrWWNNZkVLImL6zMnPYMgHp%2F2XSUdZcVLaIrXIUcEquwUI4v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDOZk5D40XZEdvs4MzCqPBbrMDOCDy2RCkjl76nwiKOOlP68np5MWUxr%2BDzqUCpKKRzpgBZ59engcRmY9cm2QfrdY8IqMCxA8SxIX5hMj2I9X4P0gZ6phWCbV6JN7TCFdbt281S7evUuAAZDFcpM5qvNHYCpKdjONOvrSItWFu%2FB7rvew5D3RIPORE5Pn2NMpLd%2BPtqtaBR3b5l78c0n1uGvE0xn5Se9GhJR4rFy9Wdfoh%2FuKSeyhyGIPQCd5noHOPo2LFTAsDgqe9pfc0J5%2BHFbejoGpF%2BPNkXDYJpxZs0yZ0yWUBfpba7sEclW4Zu5iiIN1qDUH2ooEbQfpyXoIByOUz3IlzDEQUsUGMb3nN3QuEhGSFXDAraRhCRAVvvj4YlUTLO8CvsCzOkgYq1EPLw6FVaWCoZxDaHEuZF%2BsPVhZjsM%2FvxfhoQSER23%2F%2BwTrG0DU6JvlxyKsnTtMHpheUTZo32sCgrX%2BB0e4d8JTg46qZmla2TiclXCHITJlkNR4FVN2lBxQPnR2LIrlVp5dNF%2F8W1zVNSTk%2FjpxSi3agvFIf2DcQHIYyEZhQ0suWMJr5nKGSF%2B%2BBhRgdUOhhWs%2FpU%2FU73RE%2BPnwfni95QoL0FCtr02TncPo2XwIEsRxCYf%2F6Sat%2BiXek%2B%2BTAUw19KbpKNTTXpzOyzbRjTzyNDZ2AmDCD6iOM12NdMkAj%2BdeaTuS%2B%2Fpy7nY7nM4OaTQlB6BR5ry6fIgBb7MeHgMKgxW976MWnALo2N8v0KfD%2FPqoe8XlfNl%2BdiHPeU3I9jToYkpXzOCk4FYNVPn5T7Y26R%2BSB93hVkiImN7v2L2w2lsrUwOZQBNGmfxj6D11K2Bb5HiwcRopOtB8wX1cuitlzcLZZ7g1VpuZpldqXU09jbLkdUYw9LmRvAY6sQH60IWpMKs7kSJnIbXpdfHZSHpjzkC8XI0AsF%2BKxRKi6LaakTSIuTXhVWP9AJU4JiUbRanDCSG%2F31qYi5nXgvm61iqZZR9W%2B4OvFgk1cYbPBXlj4Z9%2BAkzAeOA7lFiRhsd4NCnqVuP3UPIS4bcJ6dWuu7QY36fkUIBo0ZEdRC7omf5K44kuKMmcIW3b1kJHnSmKIudugxCQZ%2FrH0Niywu113Fzh9oe%2BHLgQv6FXmlP8168%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250113T004632Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYX7Y7ZRW5%2F20250113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4b6cf73eda7d147dcb7f4f7a920023c77c6f02a3177e018fa1e43f77ac188059&hash=8a85a6dabe00e7e43579dab7e076fc87f17a380b885910f4257ae2f2c73971fe&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2214212623000467&tid=spdf-c077289d-8002-4b4d-beb3-ca25d53595c0&sid=6b0286f134ed164c4c480348ddc4462dedd5gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1b135c5f52565a0b07575c&rr=90115ea89b5c5727&cc=au)  |
+### Model/Architecture Enhancement
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  PRECODE  |  PRECODE - A Generic Model Extension To Prevent Deep Gradient Leakage  |  WACV'2022  |  [[Paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Scheliga_PRECODE_-_A_Generic_Model_Extension_To_Prevent_Deep_Gradient_WACV_2022_paper.pdf), [[Code]](https://github.com/dAI-SY-Group/PRECODE)  |
+|  SecCNN  |  Construct a Secure CNN Against Gradient Inversion Attack  |  PAKDD'2024  |  [[Paper]](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_19)  |
+|  RVE-PFL  |  VE-PFL: Robust Variational Encoder-based Personalised Federated Learning against Model Inversion Attacks  |  TIFS'2024  |  [[Paper]](https://dl.acm.org/doi/abs/10.1109/TIFS.2024.3368879), [[Code]](https://github.com/UNSW-Canberra-2023/RVE-PFL)  |
+|  ResSFL  |  Ressfl: A resistance transfer framework for defending model inversion attack in split federated learning  |  CVPR'2022  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_ResSFL_A_Resistance_Transfer_Framework_for_Defending_Model_Inversion_Attack_CVPR_2022_paper.pdf), [[Code]](https://github.com/zlijingtao/ResSFL)  |
+### Miscellaneours MI Defenses
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  TL-DMI  |  Model Inversion Robustness: Can Transfer Learning Help?  |  CVPR'2024  |  [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ho_Model_Inversion_Robustness_Can_Transfer_Learning_Help_CVPR_2024_paper.pdf), [[Code]](https://hosytuyen.github.io/projects/TL-DMI/)  |
+|  BiDO  |  Bilateral Dependency Optimization: Defending Against Model-inversion Attacks  |  KDD'2022  |  [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3534678.3539376), [[Code]](https://github.com/AlanPeng0897/Defend_MI)  |
+|  MID  |  Improving robustness to model inversion attacks via mutual information regularization.  |  AAAI'2021  |  [[Paper]](https://cdn.aaai.org/ojs/17387/17387-13-20881-1-2-20210518.pdf), [[Code]](https://github.com/Jiachen-T-Wang/mi-defense)  |
 
 
 ## Evaluation Metrics in MI Attacks and Defenses
+
+|         Method         |                                Paper                                 |                                                    Publication                                                     |   Source   |
+|:----------------------:|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:--------:|
+|  MSE  |  -  |  -  |  [[Link]](https://link.springer.com/book/9780387310732)  |
+|  LPIPS  |  The Unreasonable Effectiveness of Deep Features as a Perceptual Metric  |  CVPR'2018  |  [[Link]](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)  |
+
 
 
 ## Datasets for MI Attack Research
