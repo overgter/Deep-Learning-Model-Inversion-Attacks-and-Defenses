@@ -131,9 +131,9 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  ImageNet  |  ImageNet: A large-scale hierarchical image database  |  CVPR'2009  |  [[Paper]](https://ieeexplore.ieee.org/abstract/document/5206848), [[Link]](https://github.com/jiweibo/ImageNet)  |
 |  FFHQ  |  A Style-Based Generator Architecture for Generative Adversarial Networks  |  PAMI'2021  |  [[Paper]](https://ieeexplore.ieee.org/document/8977347), [[Link]](https://github.com/NVlabs/stylegan)  |
 |  ChestX-ray8  |  ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases  |  CVPR'2017  |  [[Paper]](https://ieeexplore.ieee.org/document/8099852), [[Link]](https://paperswithcode.com/dataset/chestx-ray8)  |
-|  UBMD  |   A data-driven approach to predict the success of bank telemarketing  |  DSSs'2014  |  [[paper]](https://www.sciencedirect.com/science/article/pii/S016792361400061X?casa_token=LPZjxdKFl9QAAAAA:fRqXxSuxv9viR_TqgrTDkrwoJmXliRKpqvuEmuFhQQxUF6fctg8-3TyNaFalOlXKchlfdUT5oZfv), [[Code]](https://github.com/RistovaIvona/Bank-Marketing)  |
-|  LDC  |  The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions  |  Sci Data'2018  |  [[Paper]](https://www.nature.com/articles/sdata2018161), [[Code]](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)  |
-|  SVHN  |  Reading digits in natural images with unsupervised feature learning  |  NeurIPS'2011  |  [[Paper]](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37648.pdf), [[Code]](http://ufldl.stanford.edu/housenumbers/)  |
+|  UBMD  |   A data-driven approach to predict the success of bank telemarketing  |  DSSs'2014  |  [[paper]](https://www.sciencedirect.com/science/article/pii/S016792361400061X?casa_token=LPZjxdKFl9QAAAAA:fRqXxSuxv9viR_TqgrTDkrwoJmXliRKpqvuEmuFhQQxUF6fctg8-3TyNaFalOlXKchlfdUT5oZfv), [[Link]](https://github.com/RistovaIvona/Bank-Marketing)  |
+|  LDC  |  The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions  |  Sci Data'2018  |  [[Paper]](https://www.nature.com/articles/sdata2018161), [[Link]](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)  |
+|  SVHN  |  Reading digits in natural images with unsupervised feature learning  |  NeurIPS'2011  |  [[Paper]](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37648.pdf), [[Link]](http://ufldl.stanford.edu/housenumbers/)  |
 
 
 
