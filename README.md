@@ -1,5 +1,5 @@
 # 🔥🔥🔥Resource Repository for Deep Learning Model Inversion Attacks and Defenses🔥🔥🔥
-This is a comprehensive resource repository for deep learning model inversion attacks and defenses research.
+**Model Inversion (MI) Attacks** have become a major privacy threat that utilizes various methods to reconstruct sensitive data from machine/deep learning models. This is a comprehensive resource repository for deep learning MI attacks and defenses research.
 
 ## 🧨Taxonomy of Model Inversion Attacks🧨
 ### - Gradient Inversion Attacks
@@ -136,9 +136,19 @@ This is a comprehensive resource repository for deep learning model inversion at
 |  SVHN  |  Reading digits in natural images with unsupervised feature learning  |  NeurIPS'2011  |  [[Paper]](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37648.pdf), [[Link]](http://ufldl.stanford.edu/housenumbers/)  |
 
 
+## 📂 Citation
 
+If this resource repository helps to your research, we would greatly appreciate it if you could cite our papers below.
 
-
+```bibtex
+@misc{yang2025deeplearningmodelinversion,
+      title={Deep Learning Model Inversion Attacks and Defenses: A Comprehensive Survey}, 
+      author={Wencheng Yang and Song Wang and Di Wu and Taotao Cai and Yanming Zhu and Shicheng Wei and Yiying Zhang and Xu Yang and Yan Li},
+      year={2025},
+      eprint={2501.18934},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2501.18934}
 
 
 
