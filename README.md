@@ -1,5 +1,5 @@
 # 🔥🔥🔥Resource Repository for Deep Learning Model Inversion Attacks and Defenses🔥🔥🔥
-**Model Inversion (MI) Attacks** have become a major privacy threat that utilizes various methods to reconstruct sensitive data from machine/deep learning models. This is a comprehensive resource repository for deep learning MI attacks and defenses research. <span style="color:blue;"> repository will be continuously maintained to ensure its relevance and usefulness. If you would like to contribute to this repository—for example, by including your paper or code—please send the first author of our survey paper listed in the bottom of this page!</span>
+**Model Inversion (MI) Attacks** have become a major privacy threat that utilizes various methods to reconstruct sensitive data from machine/deep learning models. This is a comprehensive resource repository for deep learning MI attacks and defenses research. <span style="color:blue;"> repository will be continuously maintained to ensure its relevance and usefulness. If you would like to contribute to this repository—for example, by including your paper or code—please send a message to the first author of our survey paper listed in the bottom of this page!</span>
 
 ## 🧨Taxonomy of Model Inversion Attacks🧨
 ### - Gradient Inversion Attacks
