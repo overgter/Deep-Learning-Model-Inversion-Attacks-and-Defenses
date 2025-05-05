@@ -143,7 +143,7 @@ If this resource repository helps to your research, we would greatly appreciate 
 ```bibtex
 @misc{yang2025deeplearningmodelinversion,
       title={Deep Learning Model Inversion Attacks and Defenses: A Comprehensive Survey}, 
-      author={Wencheng Yang and Song Wang and Di Wu and Taotao Cai and Yanming Zhu and Shicheng Wei and Yiying Zhang and Xu Yang and Yan Li},
+      author={Wencheng Yang, Song Wang, Di Wu, Taotao Cai, Yanming Zhu, Shicheng Wei, Yiying Zhang, Xu Yang, Zhaohui Tang and Yan Li},
       year={2025},
       eprint={2501.18934},
       archivePrefix={arXiv},
