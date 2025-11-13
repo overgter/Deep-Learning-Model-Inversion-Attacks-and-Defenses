@@ -141,14 +141,13 @@
 If this resource repository helps to your research, we would greatly appreciate it if you could cite our papers below.
 
 ```bibtex
-@misc{yang2025deeplearningmodelinversion,
-      title={Deep Learning Model Inversion Attacks and Defenses: A Comprehensive Survey}, 
-      author={Wencheng Yang, Song Wang, Di Wu, Taotao Cai, Yanming Zhu, Shicheng Wei, Yiying Zhang, Xu Yang, Zhaohui Tang and Yan Li},
-      year={2025},
-      eprint={2501.18934},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2501.18934}
+@article{Yang_Wang_Wu_Cai_Zhu_Wei_Zhang_Yang_Tang_Li_2025,
+title={Deep learning model inversion attacks and defenses: a comprehensive survey},
+volume={58}, ISSN={1573-7462}, DOI={10.1007/s10462-025-11248-0}, number={8},
+journal={Artificial Intelligence Review},
+author={Yang, Wencheng and Wang, Song and Wu, Di and Cai, Taotao and Zhu, Yanming and Wei, Shicheng and Zhang, Yiying and Yang, Xu and Tang, Zhaohui and Li, Yan},
+year={2025}, month=may, pages={242}, language={en}}
+
 
 
 
